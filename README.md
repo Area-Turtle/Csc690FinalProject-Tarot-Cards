@@ -8,7 +8,7 @@ Proposal:
 
 So what I plan on doing is create a tarot card reading app.
 
-	# Must haves:
+Must haves:
  	-The app will randomly draw out at least 7 cards from the deck.
  	-At total of 78 cards one for each of the arcana.
 		-Potentially double the amount to accomdate different versions of the card.
@@ -18,7 +18,7 @@ So what I plan on doing is create a tarot card reading app.
 		-Will include contact, hours, pricing
 		-Based on cards drawn will print out responce
 
-	# Nice to have:
+Nice to have:
  	-Stores responces
  	-Delete/clear responces
 	
