@@ -1,6 +1,6 @@
 
 Zachary Ma
-916750281
-CSC690
+/n916750281
+/nCSC690
 
-# Csc690FinalProject-Tarot-Cards
+/t# Csc690FinalProject-Tarot-Cards
