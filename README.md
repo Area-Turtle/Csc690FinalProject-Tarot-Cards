@@ -24,3 +24,4 @@ So what I plan on doing is create a tarot card reading app. The tarot card readi
 - Stores responses
 - Delete/clear responses
 - Sentence is grammatically correct
+- Will include reverse arcana
