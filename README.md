@@ -14,14 +14,18 @@ Tarot card [meaning](https://labyrinthos.co/blogs/tarot-card-meanings-list)
 
 ## Must haves:
 - The app will randomly draw out at least 7 cards from the deck.
+
 - At total of 78 cards. 
+	- Each card has its own fragment for a prediction
 	- 22 Major Arcana
-	- 14Suit of Wands
-	- 14 Suit of Cups
-	- 14 Suit of Swords
-	- 14 Suit of Pentacles 
-		- Each card has its own fragment for a prediction
-- Will have the option to select between only the major or each suit or for it to pick though the combined deck
+	- 56 Minor Arcana
+		- 14 Suit of Wands
+		- 14 Suit of Cups
+		- 14 Suit of Swords
+		- 14 Suit of Pentacles 
+
+- Will have the option to select between only the major or minor or for it to pick though the combined deck
+
 - Locations for "local" tarot card reading business
 	- Will include contact, hours, pricing
 	- Based on cards drawn will print out response
