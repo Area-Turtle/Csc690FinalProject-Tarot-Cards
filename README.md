@@ -15,7 +15,11 @@ Tarot card [meanings](https://labyrinthos.co/blogs/tarot-card-meanings-list)
 ## Must haves:
 - The app will randomly draw out at least 3 cards from the deck.
 
-- Seperate pages for for each section of the app.
+- Seperate pages for for each section of the app. (Four total)
+	- Home Page
+	- Card Index
+	- Shop locations
+	- Card Reading
 
 - At total of 78 cards. 
 	- Each card has its own fragment for a prediction
