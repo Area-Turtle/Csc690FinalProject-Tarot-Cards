@@ -15,7 +15,7 @@ Tarot card [meanings](https://labyrinthos.co/blogs/tarot-card-meanings-list)
 ## Original (4/15/21)
 
 ## Must haves:
-- The app will randomly draw out at least 7 cards from the deck.
+- The app will randomly draw out at least 3 cards from the deck.
 
 - At total of 78 cards. 
 	- Each card has its own fragment for a prediction
@@ -41,7 +41,7 @@ Tarot card [meanings](https://labyrinthos.co/blogs/tarot-card-meanings-list)
 ## Revised (4/21/21)
 
 ## Must haves:
-- The app will randomly draw out at least 7 cards from the deck.
+- The app will randomly draw out at least 3 cards from the deck.
 
 - At total of 78 cards. 
 	- Each card has its own fragment for a prediction
