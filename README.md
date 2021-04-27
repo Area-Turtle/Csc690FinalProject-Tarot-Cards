@@ -51,7 +51,6 @@ Tarot card [meanings](https://labyrinthos.co/blogs/tarot-card-meanings-list)
 		- 14 Suit of Cups
 		- 14 Suit of Swords
 		- 14 Suit of Pentacles 
-- Will draw 3 cards from the whole deck
 
 
 - Locations for "local" tarot card reading business
