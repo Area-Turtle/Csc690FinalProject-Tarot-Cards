@@ -30,14 +30,12 @@ Tarot card [meanings](https://labyrinthos.co/blogs/tarot-card-meanings-list)
 		- 14 Suit of Swords
 		- 14 Suit of Pentacles 
 
-
-- Locations for "local" tarot card reading business
-	- Will include contact, hours, pricing
-	- Based on cards drawn will print out response
-
 ## Nice to have:
 - Stores responses
 - Delete/clear responses
 - Sentence is grammatically correct
 - Will include reverse arcana
 - Will have the option to select 3 cards between the major or minor or for it to pick though the combined deck
+- Locations for "local" tarot card reading business
+	- Will include contact, hours, pricing
+	- Based on cards drawn will print out response
