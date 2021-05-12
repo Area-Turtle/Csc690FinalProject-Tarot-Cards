@@ -16,6 +16,7 @@ Tarot card (front) [image](https://search.creativecommons.org/photos/5340bb84-96
 "1941 Blondie Comic Playing Card" by andertoons is licensed with CC BY 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by/2.0/
 
 ## Must haves:
+(Warning somewhat big project due to the number of images)
 - The app will randomly draw out at least 3 cards from the deck.
 
 - Seperate pages for for each section of the app. (Four total)
