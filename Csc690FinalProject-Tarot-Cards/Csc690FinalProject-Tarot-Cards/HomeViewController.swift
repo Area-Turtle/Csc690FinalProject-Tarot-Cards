@@ -1,5 +1,5 @@
 //
-//  GameViewController.swift
+//  HomeViewController.swift
 //  Csc690FinalProject-Tarot-Cards
 //
 //  Created by Zach Ma on 5/4/21.
@@ -10,7 +10,7 @@ import UIKit
 import SpriteKit
 import GameplayKit
 
-class GameViewController: UIViewController {
+class HomeViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -31,7 +31,7 @@ class GameViewController: UIViewController {
             view.showsNodeCount = true
         }
     }
-
+    
     override var shouldAutorotate: Bool {
         return true
     }
@@ -47,4 +47,11 @@ class GameViewController: UIViewController {
     override var prefersStatusBarHidden: Bool {
         return true
     }
+    
+    @IBAction func cardScene(_ sender: UIButton) {
+        let vc = storyboard?.instantiateViewController(identifier: "cardScene_vc") as! DrawCardViewController
+        present(vc, animated: true)
+    }
+    
+    
 }
