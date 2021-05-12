@@ -13,7 +13,7 @@ So what I plan on doing is create a tarot card reading app. The tarot card readi
 Tarot card [meanings](https://labyrinthos.co/blogs/tarot-card-meanings-list)
 
 ## Must haves:
-- The app will randomly draw out at least 3 cards from the deck.
+- The app will randomly draw out at least 7 cards from the deck.
 
 - Seperate pages for for each section of the app. (Four total)
 	- Home Page
