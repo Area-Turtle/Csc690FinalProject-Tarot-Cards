@@ -11,9 +11,12 @@ Proposal:
 So what I plan on doing is create a tarot card reading app. The tarot card reading is a pretty old idea, and this app will work by grabbing 7 random cards from the deck and combing them into a hopefully coherent sentence
 
 Tarot card [meanings](https://labyrinthos.co/blogs/tarot-card-meanings-list)
+Tarot card [images](https://www.bennionkearny.com/free-tarot-cards/)
+Tarot card (front) [image](https://search.creativecommons.org/photos/5340bb84-96f6-432e-81fa-2225aa8e6d69)
+"1941 Blondie Comic Playing Card" by andertoons is licensed with CC BY 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by/2.0/
 
 ## Must haves:
-- The app will randomly draw out at least 5 cards from the deck.
+- The app will randomly draw out at least 3 cards from the deck.
 
 - Seperate pages for for each section of the app. (Four total)
 	- Home Page
