@@ -78,30 +78,44 @@ class DrawCardViewController: UIViewController {
     var temp: [String] = []
     
     
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         present.image = UIImage(named: "back")
         past.image = UIImage(named: "back")
         future.image = UIImage(named: "back")
+        
+        /*
+         Loads Card Struct and Deck class. Comblines the values and suits into one value and appends them to tarot array. major and minor arcana are seperated
+         */
         minorArcana = Deck(values: values, suits: suits)
         majorArcana = Deck(values: m_values, suits: m_suit)
+        
+        //minorArcana.shuffle()
+        //majorArcana.shuffle()
         
         for i in 0...55{
             Tarot.append(minorArcana.tarot[i])
             //print(minorArcana.tarot[i])
+            
         }
         for k in 0...21{
             Tarot.append(majorArcana.tarot[k])
             //print(majorArcana.tarot[k])
         }
+        Tarot.shuffle()
         
     }
     @IBAction func drawCard(_ sender: UIButton) {
         setImage()
     }
+    
+    /*
+     Sets cards to be drawn and calculates message.
+     -  takes top card, and shuffles deck.
+     -  sets each card as image, then finds decription and prints message.
+     */
     func setImage(){
-        
-        
         for i in 0..<3{
             player.append(Tarot[i])
             Tarot.shuffle()
@@ -132,7 +146,7 @@ class DrawCardViewController: UIViewController {
                 }
             }
         }
-        self.message.text = "Your current situation is \(temp[0]). Your past was shaped by   \(temp[1]). The direction things are moving in are \(temp[2])"
+        self.message.text = "Your current situation is \(temp[0]). Your past was shaped by \(temp[1]). The direction things are moving in are \(temp[2])"
         print(""+temp[0]+temp[1]+temp[2])
         
         
