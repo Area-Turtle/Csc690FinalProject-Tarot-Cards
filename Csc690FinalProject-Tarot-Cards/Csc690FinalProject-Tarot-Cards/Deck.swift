@@ -21,7 +21,7 @@ class Deck{
         for v in values{
             for s in suits{
                 let t = Card(value: v, suit: s)
-                    //print(t)
+                //print(t)
                 tarot.append(t)
             }
         }

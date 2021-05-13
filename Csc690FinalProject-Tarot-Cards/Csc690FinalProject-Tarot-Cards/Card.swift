@@ -9,10 +9,11 @@
 import Foundation
 
 struct Card {
-    
+   
     var value: Int
     var suit: String
     init (value: Int, suit: String){
+
         self.value = value
         self.suit = suit
     }

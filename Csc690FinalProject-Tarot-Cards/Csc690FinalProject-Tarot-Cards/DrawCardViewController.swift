@@ -29,11 +29,12 @@ class DrawCardViewController: UIViewController {
         /*swords [2,3,4,5,6,7,8,9,10,11,12,13,14,15]*/
         "difficult choices", "rest", "heartbreak", "unbridled ambition", "transition", "deception", "imprisionment", "anxiety", "failure", "curiosity", "complexity", "action", "head over heart", "breakthrough",
         /*wands [2,3,4,5,6,7,8,9,10,11,12,13,14,15]*/
-        "planning", "looking ahead", "community", "competition", "victory", "perseverance", "rapid action", "resilience", "accomplishment", "exploration", "action", "courage", "big picture", "creation",
+        "planning", "looking ahead", "community", "competition", "victory", "perseverance", "rapid action", "resilience", "accomplishment", "exploration", "action", "courage", "big picture", "creation"]
+    var desc2 = [
+        
         
         /*majors: [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21]*/
         "innocence", "willpwer", "intuitive", "motherhood", "authority", "tradition", "partnerships", "direction", "inner strengh", "contemplation", "change", "cause/effect", "sacrifice", "end of cycle", "middle path", "addiction", "sudden upheaval", "hope","unconscious", "joy", "reflection", "fulfilment" ]
-    
     
     var minorArcana: Deck!
     var majorArcana: Deck!
@@ -52,9 +53,11 @@ class DrawCardViewController: UIViewController {
         
         for i in 0...55{
             Tarot.append(minorArcana.tarot[i])
+            //print(minorArcana.tarot[i])
         }
         for k in 0...21{
             Tarot.append(majorArcana.tarot[k])
+            //print(majorArcana.tarot[k])
         }
         /*
          for j in 0...77{
