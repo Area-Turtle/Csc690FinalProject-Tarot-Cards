@@ -55,18 +55,27 @@ class DrawCardViewController: UIViewController {
         ["wand8", "rapid action"],["wand9", "resilience"],
         ["wand10", "accomplishment"],["wand11", "exploration"],
         ["wand12", "action"],["wand13", "courage"],
-        ["wand14","big picture"],["wand15", "creation"]]
-    
-    var desc2 = [
+        ["wand14","big picture"],["wand15", "creation"],
         
         /*majors: [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21]*/
-        ["major0", "innocence"],["major1", "willpwer"],["major2", "intuitive"],["major3", "motherhood"],["major4", "authority"],["major5", "tradition"],["major6", "partnerships"],["major7","direction"],["major8", "inner strengh"],["major9", "contemplation"],["major10", "change"],["major11", "cause/effect"],["major12", "sacrifice"],["major13", "end of cycle"],["major14", "middle path"],["major15", "addiction"],["major16", "sudden upheaval"],["major17", "hope"],["major18","unconscious"],["major19", "joy"],["major20", "reflection"],["major21", "fulfilment"] ]
+        ["major0", "innocence"],["major1", "willpwer"],
+        ["major2", "intuitive"],["major3", "motherhood"],
+        ["major4", "authority"],["major5", "tradition"],
+        ["major6", "partnerships"],["major7","direction"],
+        ["major8", "inner strengh"],["major9", "contemplation"],
+        ["major10", "change"],["major11", "cause/effect"],
+        ["major12", "sacrifice"],["major13", "end of cycle"],
+        ["major14", "middle path"],["major15", "addiction"],
+        ["major16", "sudden upheaval"],["major17", "hope"],
+        ["major18","unconscious"],["major19", "joy"],
+        ["major20", "reflection"],["major21", "fulfilment"] ]
     
     var minorArcana: Deck!
     var majorArcana: Deck!
     var descCard: [String] = []
     var Tarot: [Card] = []
     var player: [Card] = []
+    var temp: [String] = []
     
     
     override func viewDidLoad() {
@@ -85,29 +94,14 @@ class DrawCardViewController: UIViewController {
             Tarot.append(majorArcana.tarot[k])
             //print(majorArcana.tarot[k])
         }
-        for i in 0...21{
-            for j in 0..<1{
-                print(desc2[i][0])
-            }
-        }
-        /*
-         for j in 0...77{
-         var temp = (Tarot[j].toString())
-         desc[j] = "\(temp): \(desc[j])"
-         }
-         
-         for l in 0...77{
-         print(desc[l])
-         }
-         */
-        
-        
         
     }
     @IBAction func drawCard(_ sender: UIButton) {
         setImage()
     }
     func setImage(){
+        
+        
         for i in 0..<3{
             player.append(Tarot[i])
             Tarot.shuffle()
@@ -117,9 +111,31 @@ class DrawCardViewController: UIViewController {
         past.image = UIImage(named: "\(player[1].toString())")
         future.image = UIImage(named: "\(player[2].toString())")
         
+        for i in 0...77{
+            for j in 0..<1{
+                
+                if (desc[i][0] == player[0].toString()){
+                    
+                    temp.append(desc[i][1])
+                    
+                }
+                if (desc[i][0] == player[1].toString()){
+                    
+                    temp.append(desc[i][1])
+                    print(temp[1])
+                    
+                }
+                if (desc[i][0] == player[2].toString()){
+                    
+                    temp.append(desc[i][1])
+                    
+                }
+            }
+        }
+        self.message.text = "Your current situation is \(temp[0]). Your past was shaped by   \(temp[1]). The direction things are moving in are \(temp[2])"
+        print(""+temp[0]+temp[1]+temp[2])
         
         
-        //message.text = "
     }
     
     
