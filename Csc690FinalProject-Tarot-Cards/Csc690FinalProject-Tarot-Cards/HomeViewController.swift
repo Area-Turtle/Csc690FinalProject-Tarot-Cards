@@ -53,5 +53,8 @@ class HomeViewController: UIViewController {
         present(vc, animated: true)
     }
     
+    @IBAction func indexScene(_ sender: UIButton) {let vc2 = storyboard?.instantiateViewController(identifier: "indexScene_vc") as! IndexViewController
+        present(vc2, animated: true)
+    }
     
 }
