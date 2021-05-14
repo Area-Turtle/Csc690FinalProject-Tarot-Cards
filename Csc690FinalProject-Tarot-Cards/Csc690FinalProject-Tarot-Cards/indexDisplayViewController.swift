@@ -10,9 +10,10 @@ import UIKit
 
 class indexDisplayViewController: UIViewController {
 
+    @IBOutlet weak var image: UIImageView!
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        image.image = UIImage(named: "back")
         // Do any additional setup after loading the view.
     }
     

@@ -51,10 +51,10 @@
             </objects>
             <point key="canvasLocation" x="2850.7246376811595" y="115.84821428571428"/>
         </scene>
-        <!--View Controller-->
+        <!--Index Display View Controller-->
         <scene sceneID="EKE-BN-SR7">
             <objects>
-                <viewController storyboardIdentifier="indexDisplay_vc" id="Kdp-dx-gqb" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="indexDisplay_vc" id="Kdp-dx-gqb" customClass="indexDisplayViewController" customModule="Csc690FinalProject_Tarot_Cards" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="hNg-k0-LJe">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -64,13 +64,16 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                         </subviews>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <color key="backgroundColor" red="0.093763686720000003" green="0.3609831631" blue="0.12590244410000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="nM8-lg-t5o"/>
                     </view>
+                    <connections>
+                        <outlet property="image" destination="a6C-lW-rVu" id="u56-M7-6aD"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Oah-14-JGq" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3628.985507246377" y="151.33928571428569"/>
+            <point key="canvasLocation" x="3629" y="116"/>
         </scene>
         <!--Home View Controller-->
         <scene sceneID="tXr-a1-R10">
@@ -253,7 +256,7 @@
                     </navigationBar>
                     <nil name="viewControllers"/>
                     <connections>
-                        <segue destination="g0B-9r-RCX" kind="relationship" relationship="rootViewController" id="85L-0W-cl2"/>
+                        <segue destination="g0B-9r-RCX" kind="relationship" relationship="rootViewController" destinationCreationSelector="arcana" id="85L-0W-cl2"/>
                     </connections>
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="0uh-om-N5I" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>

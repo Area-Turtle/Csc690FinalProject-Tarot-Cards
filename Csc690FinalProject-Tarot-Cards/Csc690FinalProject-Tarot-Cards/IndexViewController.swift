@@ -117,7 +117,9 @@ extension IndexViewController: UITableViewDelegate{
         let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath)
         cell.textLabel?.text = descs[indexPath.row]
         print(descs[indexPath.row])
-        
+        let vc = storyboard?.instantiateViewController(identifier: "indexDisplay_vc") as! indexDisplayViewController
+        present(vc, animated: true)
+        self.performSegue(withIdentifier:"arcana", sender: indexPath.row)
         //return cell
         //print("\(desc[indexPath.row])")
         //let vc = storyboard?.instantiateViewController(withIdentifier: "indexDisplay_vc")
