@@ -19,7 +19,7 @@ Tarot card (front) [image](https://search.creativecommons.org/photos/5340bb84-96
 (Warning somewhat big project due to the number of images)
 - The app will randomly draw out at least 3 cards from the deck.
 
-- Seperate pages for for each section of the app. (Four total)
+- Seperate pages for for each section of the app. (Three total)
 	- Home Page
 	- Card Index
 	- Card Reading
