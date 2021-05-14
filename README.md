@@ -42,3 +42,12 @@ Tarot card (front) [image](https://search.creativecommons.org/photos/5340bb84-96
 - Locations for "local" tarot card reading business
 	- Will include contact, hours, pricing
 	- Based on cards drawn will print out response
+
+Time estimations:
+-So overall I don't think it will take very long to program everything that I wanted. 24hr max.
+-Assets(Images) will probably take around 2-3hr to get everything into the folder.
+-Home menu will probably take 1hr. 
+-The biggest hurdels for me is the draw card section and the index section.
+	-The draw card section should not take more then 6hrs to code. 
+	-The Index I assume will be about the same amount of time.
+-Everything else will be ironing out the kinks/debugging.
