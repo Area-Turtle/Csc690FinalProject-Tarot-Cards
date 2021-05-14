@@ -11,6 +11,8 @@
 		B6DF2515264CED47009A4E6A /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6DF2514264CED47009A4E6A /* Card.swift */; };
 		B6DF2517264CED6B009A4E6A /* Deck.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6DF2516264CED6B009A4E6A /* Deck.swift */; };
 		B6DF251B264D335D009A4E6A /* IndexViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6DF251A264D335D009A4E6A /* IndexViewController.swift */; };
+		B6DF251F264E3DC0009A4E6A /* IndexDisplayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6DF251E264E3DC0009A4E6A /* IndexDisplayViewController.swift */; };
+		B6DF2525264E4915009A4E6A /* CellTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6DF2524264E4915009A4E6A /* CellTableViewCell.swift */; };
 		B6E4E2A02641F105004CD530 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6E4E29F2641F105004CD530 /* AppDelegate.swift */; };
 		B6E4E2A22641F105004CD530 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = B6E4E2A12641F105004CD530 /* GameScene.sks */; };
 		B6E4E2A42641F105004CD530 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = B6E4E2A32641F105004CD530 /* Actions.sks */; };
@@ -45,6 +47,8 @@
 		B6DF2514264CED47009A4E6A /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
 		B6DF2516264CED6B009A4E6A /* Deck.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Deck.swift; sourceTree = "<group>"; };
 		B6DF251A264D335D009A4E6A /* IndexViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IndexViewController.swift; sourceTree = "<group>"; };
+		B6DF251E264E3DC0009A4E6A /* IndexDisplayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IndexDisplayViewController.swift; sourceTree = "<group>"; };
+		B6DF2524264E4915009A4E6A /* CellTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellTableViewCell.swift; sourceTree = "<group>"; };
 		B6E4E29C2641F105004CD530 /* Csc690FinalProject-Tarot-Cards.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Csc690FinalProject-Tarot-Cards.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B6E4E29F2641F105004CD530 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B6E4E2A12641F105004CD530 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
@@ -118,12 +122,14 @@
 				B6E4E2A72641F105004CD530 /* HomeViewController.swift */,
 				B631C9AB264BBD5800B2363C /* DrawCardViewController.swift */,
 				B6DF251A264D335D009A4E6A /* IndexViewController.swift */,
+				B6DF251E264E3DC0009A4E6A /* IndexDisplayViewController.swift */,
 				B6E4E2AE2641F109004CD530 /* LaunchScreen.storyboard */,
 				B6E4E2A92641F105004CD530 /* Main.storyboard */,
 				B6E4E2AC2641F109004CD530 /* Assets.xcassets */,
 				B6E4E2B12641F109004CD530 /* Info.plist */,
 				B6DF2514264CED47009A4E6A /* Card.swift */,
 				B6DF2516264CED6B009A4E6A /* Deck.swift */,
+				B6DF2524264E4915009A4E6A /* CellTableViewCell.swift */,
 			);
 			path = "Csc690FinalProject-Tarot-Cards";
 			sourceTree = "<group>";
@@ -279,11 +285,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B6DF251F264E3DC0009A4E6A /* IndexDisplayViewController.swift in Sources */,
 				B6DF2517264CED6B009A4E6A /* Deck.swift in Sources */,
 				B6E4E2A62641F105004CD530 /* GameScene.swift in Sources */,
 				B6E4E2A82641F105004CD530 /* HomeViewController.swift in Sources */,
 				B6DF2515264CED47009A4E6A /* Card.swift in Sources */,
 				B631C9AC264BBD5800B2363C /* DrawCardViewController.swift in Sources */,
+				B6DF2525264E4915009A4E6A /* CellTableViewCell.swift in Sources */,
 				B6DF251B264D335D009A4E6A /* IndexViewController.swift in Sources */,
 				B6E4E2A02641F105004CD530 /* AppDelegate.swift in Sources */,
 			);
