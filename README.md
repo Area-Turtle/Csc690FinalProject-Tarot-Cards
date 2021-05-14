@@ -43,7 +43,7 @@ Tarot card (front) [image](https://search.creativecommons.org/photos/5340bb84-96
 	- Will include contact, hours, pricing
 	- Based on cards drawn will print out response
 
-Time estimations:
+###Time estimations:
 -So overall I don't think it will take very long to program everything that I wanted. 24hr max.
 -Assets(Images) will probably take around 2-3hr to get everything into the folder.
 -Home menu will probably take 1hr. 
