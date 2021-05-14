@@ -78,10 +78,10 @@ extension IndexViewController: UITableViewDataSource{
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath)
-        cell?tableView.image = UIImage(named:desc[indexPath.row])
+        cell.textLabel?.text = desc[indexPath.row].capitalized
         return cell
         
-        //cell.indexLabel.text=desc[indexPath.row]
+        
         //cell.tableview.image = UIImage(named: desc[indexPath.row])
         //cell?indexLabel.text = desc[
         //return cell
