@@ -40,53 +40,55 @@ class IndexViewController: UIViewController {
         
     ]
     var descs = [
-            "unity" ,"friendship",
-            "apathy", "loss",
-            "familiarity", "searching",
-            "walking away", "satisfaction",
-            "inner happiness", "happy surpise",
-            "following the heard", "compassion",
-            "compassion", "new feelings",
-           
-           /*pentacles [2,3,4,5,6,7,8,9,10,11,12,13,14,15]*/
-          "balancing", "teamwork",
-           "conversation", "need",
-            "charity" ,"hardwork",
-          "apprenticeship", "fruits of labor",
-          "legacy", "abition",
-           "efficiency" ,"practicality",
-            "abundance", "opportunity",
-           /*swords [2,3,4,5,6,7,8,9,10,11,12,13,14,15]*/
-           "difficult choices", "rest",
-            "heartbreak","unbridled ambition",
-           "transition", "deception",
-           "imprisionment", "anxiety",
-          "failure", "curiosity",
-          "complexity", "action",
-          "head over heart","breakthrough",
-           /*wands [2,3,4,5,6,7,8,9,10,11,12,13,14,15]*/
-           "planning","looking ahead",
-           "community","competition",
-            "victory","perseverance",
-           "rapid action","resilience",
-           "accomplishment","exploration",
-           "action","courage",
-           "big picture","creation",
-           
-           /*majors: [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21]*/
-            "innocence", "willpwer",
-            "intuitive", "motherhood",
-            "authority","tradition",
-            "partnerships","direction",
-            "inner strengh", "contemplation",
-            "change", "cause/effect",
-           "sacrifice", "end of cycle",
-            "middle path", "addiction",
-            "sudden upheaval","hope",
-           "unconscious", "joy",
-           "reflection", "fulfilment"
-    ]
         
+        /*majors: [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21]*/
+        "innocence", "willpwer",
+        "intuitive", "motherhood",
+        "authority","tradition",
+        "partnerships","direction",
+        "inner strengh", "contemplation",
+        "change", "cause/effect",
+        "sacrifice", "end of cycle",
+        "middle path", "addiction",
+        "sudden upheaval","hope",
+        "unconscious", "joy",
+        "reflection", "fulfilment",
+        
+        
+        /*pentacles [2,3,4,5,6,7,8,9,10,11,12,13,14,15]*/
+        "balancing", "teamwork",
+        "conversation", "need",
+        "charity" ,"hardwork",
+        "apprenticeship", "fruits of labor",
+        "legacy", "abition",
+        "efficiency" ,"practicality",
+        "abundance", "opportunity",
+        /*swords [2,3,4,5,6,7,8,9,10,11,12,13,14,15]*/
+        "difficult choices", "rest",
+        "heartbreak","unbridled ambition",
+        "transition", "deception",
+        "imprisionment", "anxiety",
+        "failure", "curiosity",
+        "complexity", "action",
+        "head over heart","breakthrough",
+        /*wands [2,3,4,5,6,7,8,9,10,11,12,13,14,15]*/
+        "planning","looking ahead",
+        "community","competition",
+        "victory","perseverance",
+        "rapid action","resilience",
+        "accomplishment","exploration",
+        "action","courage",
+        "big picture","creation",
+        
+        "unity" ,"friendship",
+        "apathy", "loss",
+        "familiarity", "searching",
+        "walking away", "satisfaction",
+        "inner happiness", "happy surpise",
+        "following the heard", "compassion",
+        "compassion", "new feelings"
+    ]
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -113,7 +115,8 @@ class IndexViewController: UIViewController {
 extension IndexViewController: UITableViewDelegate{
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath)
-        cell.textLabel?.text = desc[indexPath.row]
+        cell.textLabel?.text = descs[indexPath.row]
+        print(descs[indexPath.row])
         
         //return cell
         //print("\(desc[indexPath.row])")

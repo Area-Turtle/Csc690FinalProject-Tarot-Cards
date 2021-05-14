@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		B631C9AC264BBD5800B2363C /* DrawCardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B631C9AB264BBD5800B2363C /* DrawCardViewController.swift */; };
+		B6684410264E542F007C4DEF /* indexDisplayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B668440F264E542F007C4DEF /* indexDisplayViewController.swift */; };
 		B6DF2515264CED47009A4E6A /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6DF2514264CED47009A4E6A /* Card.swift */; };
 		B6DF2517264CED6B009A4E6A /* Deck.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6DF2516264CED6B009A4E6A /* Deck.swift */; };
 		B6DF251B264D335D009A4E6A /* IndexViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6DF251A264D335D009A4E6A /* IndexViewController.swift */; };
@@ -42,6 +43,7 @@
 
 /* Begin PBXFileReference section */
 		B631C9AB264BBD5800B2363C /* DrawCardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawCardViewController.swift; sourceTree = "<group>"; };
+		B668440F264E542F007C4DEF /* indexDisplayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = indexDisplayViewController.swift; sourceTree = "<group>"; };
 		B6DF2514264CED47009A4E6A /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
 		B6DF2516264CED6B009A4E6A /* Deck.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Deck.swift; sourceTree = "<group>"; };
 		B6DF251A264D335D009A4E6A /* IndexViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IndexViewController.swift; sourceTree = "<group>"; };
@@ -119,6 +121,7 @@
 				B631C9AB264BBD5800B2363C /* DrawCardViewController.swift */,
 				B6DF251A264D335D009A4E6A /* IndexViewController.swift */,
 				B6E4E2AE2641F109004CD530 /* LaunchScreen.storyboard */,
+				B668440F264E542F007C4DEF /* indexDisplayViewController.swift */,
 				B6E4E2A92641F105004CD530 /* Main.storyboard */,
 				B6E4E2AC2641F109004CD530 /* Assets.xcassets */,
 				B6E4E2B12641F109004CD530 /* Info.plist */,
@@ -279,6 +282,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B6684410264E542F007C4DEF /* indexDisplayViewController.swift in Sources */,
 				B6DF2517264CED6B009A4E6A /* Deck.swift in Sources */,
 				B6E4E2A62641F105004CD530 /* GameScene.swift in Sources */,
 				B6E4E2A82641F105004CD530 /* HomeViewController.swift in Sources */,
