@@ -22,6 +22,8 @@ class DrawCardViewController: UIViewController {
     var m_values = [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21]
     var m_suit = ["major"]
     
+    var f_suit = ["cup", "pentacle", "sword", "wand", "major"]
+    
     var desc = [
         /* cups: [2,3,4,5,6,7,8,9,10,11,12,13,14,15] */
         ["cup2","unity"],["cup3", "friendship"],
@@ -136,7 +138,6 @@ class DrawCardViewController: UIViewController {
                 if (desc[i][0] == player[1].toString()){
                     
                     temp.append(desc[i][1])
-                    print(temp[1])
                     
                 }
                 if (desc[i][0] == player[2].toString()){

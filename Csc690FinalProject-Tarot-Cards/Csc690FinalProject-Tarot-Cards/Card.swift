@@ -7,7 +7,9 @@
 //
 
 import Foundation
-
+/*
+ Card values
+ */
 struct Card {
    
     var value: Int

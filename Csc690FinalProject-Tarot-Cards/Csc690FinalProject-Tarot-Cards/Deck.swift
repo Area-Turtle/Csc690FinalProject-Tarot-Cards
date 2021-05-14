@@ -8,6 +8,9 @@
 
 import Foundation
 
+/*
+ Deck values
+ */
 class Deck{
     
     var tarot: [Card]
